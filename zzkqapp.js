@@ -19,7 +19,7 @@ cron "10 10 * * *" script-path=https://gitee.com/gossh520/script/raw/master/zzkd
 ============小火箭=========
 追追看点 = type=cron,script-path=https://gitee.com/gossh520/script/raw/master/zzkdapp.js, cronexpr="10 10 * * *", timeout=3600, enable=true
 */
-const $ = new Env('追追看点');
+const $ = new Env('追追看点ios');
 const notify = $.isNode() ? require('./sendNotify') : '';
 let status;
 status = (status = ($.getval(`zzkdstatus`) || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
