@@ -5,3 +5,4 @@ ql repo https://github.com/leafxcy/JavaScript.git 'ks.js|ksjsb|txstock' #快手�
 ql repo https://github.com/yml2213/javascript.git 'sytt|lmz' #十堰，狸猫
 ql raw http://nm.nm6.ltd/scripts/kk.js #咔咔
 ql repo https://github.com/zyf1118/kevinxf.git 'sfsy' #顺丰
+ql raw https://raw.githubusercontent.com/FengYun27/YunFeng_Repo/main/other/gqsl.js #广汽三菱
