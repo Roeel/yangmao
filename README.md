@@ -1,4 +1,7 @@
 # yangmao
+
+# 无论如何请使用独立容器跑羊毛脚本
+
 ql repo https://github.com/Roeel/yangmao.git
 
 ## 请修改青龙内置命令
