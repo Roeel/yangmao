@@ -128,7 +128,7 @@ def get_diff_days_2_now(date_str):
 def task(config):
     mobile = config['mobile']
     refresh_token = config['refreshToken']
-    notice = ''export WOMENHU = {"mobile": "12345678910", "refreshToken": "7807f3d8-1111-4ea5-b9bf-6bb17b8ea6bc"},{"mobile": "12345678911", "refreshToken": "1111f3d8-1111-4ea5-b9bf-6bb17b1111bc"}''
+    notice = 'export WOMENHU = {"mobile": "12345678910", "refreshToken": "7807f3d8-1111-4ea5-b9bf-6bb17b8ea6bc"},{"mobile": "12345678911", "refreshToken": "1111f3d8-1111-4ea5-b9bf-6bb17b1111bc"}'
     msg = [notice + '\n开始执行: ' + mobile]
     ret = refresh(refresh_token)
     if ret['code'] != 200:
