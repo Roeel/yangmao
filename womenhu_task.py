@@ -5,7 +5,7 @@ import threading
 
 ################################ 配置区开始 ################################
 # 使用 www.pushplus.plus 进行消息推送
-PUSH_PLUS_TOKEN = '01558469ed7a41fb9d11111c97eae71f'
+PUSH_PLUS_TOKEN = ''
 
 # 多账号配置
 # mobile 手机号
