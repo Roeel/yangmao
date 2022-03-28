@@ -2,7 +2,6 @@ import requests
 import time
 import datetime
 import threading
-import os
 
 ################################ 配置区开始 ################################
 # 使用 www.pushplus.plus 进行消息推送
@@ -11,11 +10,10 @@ PUSH_PLUS_TOKEN = os.environ['PUSH_PLUS_TOKEN']
 # 多账号配置
 # mobile 手机号
 # refreshToken 登录后获取的refresh_token
-config_list = os.environ['WOMENHU']
-# [
-#     {"mobile": "12345678910", "refreshToken": "7807f3d8-1111-4ea5-b9bf-6bb17b8ea6bc"},
-#     {"mobile": "12345678911", "refreshToken": "1111f3d8-1111-4ea5-b9bf-6bb17b1111bc"},
-# ]
+config_list = [
+    {"mobile": "12345678910", "refreshToken": "7807f3d8-1111-4ea5-b9bf-6bb17b8ea6bc"},
+    {"mobile": "12345678911", "refreshToken": "1111f3d8-1111-4ea5-b9bf-6bb17b1111bc"},
+]
 
 ################################ 配置区结束 ################################
 
@@ -128,8 +126,7 @@ def get_diff_days_2_now(date_str):
 def task(config):
     mobile = config['mobile']
     refresh_token = config['refreshToken']
-    notice = 'export WOMENHU = {"mobile": "12345678910", "refreshToken": "7807f3d8-1111-4ea5-b9bf-6bb17b8ea6bc"},{"mobile": "12345678911", "refreshToken": "1111f3d8-1111-4ea5-b9bf-6bb17b1111bc"}'
-    msg = [notice + '\n开始执行: ' + mobile]
+    msg = ['开始执行: ' + mobile]
     ret = refresh(refresh_token)
     if ret['code'] != 200:
         msg.append('token失效')
