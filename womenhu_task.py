@@ -2,6 +2,7 @@ import requests
 import time
 import datetime
 import threading
+import os
 
 ################################ 配置区开始 ################################
 # 使用 www.pushplus.plus 进行消息推送
