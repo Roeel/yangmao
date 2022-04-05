@@ -9,3 +9,4 @@ ql raw https://raw.githubusercontent.com/FengYun27/YunFeng_Repo/main/other/gqsl.
 ql raw https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js #返利购
 ql repo https://github.com/gys619/jdd2.git "unicom_index" "" "unicom-task" #联通
 ql raw https://raw.githubusercontent.com/limoruirui/misaka/master/iqiyiRed.js #爱奇艺
+ql raw https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js #爱奇艺
