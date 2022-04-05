@@ -7,4 +7,5 @@ ql raw http://nm.nm6.ltd/scripts/kk.js #咔咔
 ql repo https://github.com/zyf1118/kevinxf.git 'sfsy' #顺丰
 ql raw https://raw.githubusercontent.com/FengYun27/YunFeng_Repo/main/other/gqsl.js #广汽三菱
 ql raw https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js #返利购
-ql repo https://github.com/gys619/jdd2.git "unicom_index" "" "unicom-task"
+ql repo https://github.com/gys619/jdd2.git "unicom_index" "" "unicom-task" #联通
+ql raw https://raw.githubusercontent.com/limoruirui/misaka/master/iqiyiRed.js #爱奇艺
