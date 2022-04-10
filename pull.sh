@@ -11,3 +11,4 @@ ql repo https://github.com/gys619/jdd2.git "unicom_index" "" "unicom-task" #联�
 ql raw https://raw.githubusercontent.com/limoruirui/misaka/master/iqiyiRed.js #爱奇艺
 ql raw https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js #爱奇艺
 ql repo https://github.com/passerby-b/didi_fruit.git 'dd_fruit|bucketWater' '' 'dd_cookie' #滴滴果园
+ql repo https://github.com/passerby-b/ks_fruit.git "ks_" #快手果园
