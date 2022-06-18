@@ -1,5 +1,5 @@
 #40 * * * * pull.sh, tag=拉取
-ql repo http://gitlab.luobook.fun/root/script.git "lb_|Chinaunicom" #饿了么，美团，联通
+ql repo http://gitlab.radish.today/root/script.git "lb_|Chinaunicom" #饿了么，美团，联通
 ql repo https://gitee.com/soy-tool/app-script.git 'app_yhxq|wytk|app_dwsj|app_kyin|wx_yxxsh' #源火,闪电世界，快音
 #ql repo https://github.com/leafxcy/JavaScript.git 'ks.js|ksjsb|txstock' #快手，自选股
 ql repo https://github.com/yml2213/javascript.git 'sytt|lmz|xlh|ydcd' 'invalid' #十堰，狸猫,骁龙会
